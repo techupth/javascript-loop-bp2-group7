@@ -2,6 +2,8 @@
 let companyName = "TechUp Thailand";
 let reversedCompanyName = "";
 
-// Start coding here
+for (let reverseName of companyName) {
+    reversedCompanyName = reverseName + reversedCompanyName
+}
 
 console.log(reversedCompanyName);
